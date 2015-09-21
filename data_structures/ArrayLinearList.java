@@ -5,13 +5,7 @@ import java.util.Iterator;
 public class ArrayLinearList<E> implements LinearListADT<E> {
 	private E obj;
 	private E[] storage;
-	private int head,tail,size;
-
-	/* Tells us whether or not we have gone around the entire circle which is useful
-	for determining if the list is full or empty. We don't need to initiliaze this
-	as the default value is false. */
-	private boolean wrapped;
-
+	private int head,tail, size;
 
 	// Creates a generic array with a fixed size.
 	public ArrayLinearList(int size){
@@ -22,38 +16,58 @@ public class ArrayLinearList<E> implements LinearListADT<E> {
 		this.size = 0;
 	};
 
+	public boolean checkWrap(boolean side){
+		// Depending on the side passed it determines if there is a wrap at that side
+		return side ? tail == storage.length  - 1 : head == 0;
+	}
+	/* 
+	The adding and removing functions are basically the same, just reverses of each other with slight
+	differences.
+	*/
 	public boolean addFirst(E obj){
-		if(!this.isFull()){
-			//Toggle our wrapped flag if we reach the start of the array
-			boolean checkWrap = head == 0;
-			wrapped = checkWrap ? !wrapped : wrapped;
-			head = checkWrap ? --size : --head;
+		if(this.isEmpty()){
 			storage[head] = obj;
+			size++;
 			return true;
 		}
-		return false;
+		if(this.isFull())
+			return false;
+		head = checkWrap(false) ? storage.length  - 1 : --head;
+		storage[head] = obj;
+		size++;
+		return true;
 	};
 
 	public boolean addLast(E obj){
-		if(!this.isFull()){
-			// Toggle our wrapped flag if its at the end of the array 
-			boolean checkWrap = tail == --size;
-			wrapped = checkWrap ? !wrapped : wrapped;
-			tail = checkWrap ? 0 : ++tail;
-			storage[tail] = obj;
+		if(this.isEmpty()){
+			storage[head] = obj;
+			size++;
 			return true;
 		}
-		return false;
+		if(this.isFull())
+			return false;
+		tail = checkWrap(true) ? 0 : ++tail;
+		storage[tail] = obj;
+		size++;
+		return true;
 	};   
 
 	public E removeFirst(){
-		E first = storage[head++];
-		return first;
+		if(this.isEmpty())
+			return null;
+		E removedElement = storage[head];
+		head = checkWrap(true) ? 0 : ++head;
+		size--;
+		return removedElement;
 	};   
 
 	public E removeLast(){
-		E last = storage[tail--];
-		return last;
+		if(this.isEmpty())
+			return null;
+		E removedElement = storage[tail];
+		tail = checkWrap(false) ? 0 : --tail;
+		size--;
+		return removedElement;
 	};   
 
 	public E remove(E obj){
@@ -61,11 +75,11 @@ public class ArrayLinearList<E> implements LinearListADT<E> {
 	};
 
 	public E peekFirst(){
-		return obj;
+		return storage[head];
 	};
 
 	public E peekLast(){
-		return obj;
+		return storage[tail];
 	};
 
 	public boolean contains(E obj){
@@ -73,18 +87,21 @@ public class ArrayLinearList<E> implements LinearListADT<E> {
 	};  
 
 	public E find(E obj){
+		this.iterator();
 		return obj;
 	};       
 
 	public void clear(){
+		head = tail = storage.length/2 - 1;
+		size = 0;
 	};
 
 	public boolean isEmpty(){
-		return head == tail && !wrapped;
+		return size == 0;
 	};
 
 	public boolean isFull(){
-		return head == tail && wrapped;
+		return size == storage.length;
 	};    
 
 	public int size(){
