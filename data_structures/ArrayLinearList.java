@@ -4,32 +4,42 @@ import java.util.Iterator;
 
 public class ArrayLinearList<E> implements LinearListADT<E> {
 	private E obj;
+	// change to private later
 	private E[] storage;
 	private int head,size,maxIndex,midIndex;
 
 	public ArrayLinearList(int size){
 		// Unchecked cast
 		storage = (E[]) new Object[size];
-		midIndex = (size >> 1) - 1;
-		head = maxIndex = size - 1;
+		head = midIndex = (size >> 1);
+		maxIndex = size - 1;
 		this.size = -1;
 	};
+
+	public void printArray(){
+		System.out.print("\nCurrent State of Array: [");
+		for(E element : storage){
+			System.out.print(element + ", ");
+		}
+		System.out.println("]\n");
+	};
+
 
 	/* The adding and removing functions are basically the same, just reverses of each other with slight
 	differences. */
 	public boolean addFirst(E obj){
-		head = head == 0 ? maxIndex : head;
-		storage[head--] = obj;
 		size++;
+		head = head == 0 ? maxIndex : head;
+		storage[--head] = obj;
 		return true;
 	};
 
 	public boolean addLast(E obj){
+		size++;
 		int rear = head + size;
 		// If we above the max index just take the difference which will wrap us around
 		rear = rear >= maxIndex ? rear - maxIndex : rear;
 		storage[rear] = obj;
-		size++;
 		return true;
 	};   
 
@@ -68,7 +78,7 @@ public class ArrayLinearList<E> implements LinearListADT<E> {
 
 	public void clear(){
 		head = midIndex;
-		size = 0;
+		size = -1;
 	};
 
 	public boolean isEmpty(){
@@ -84,24 +94,42 @@ public class ArrayLinearList<E> implements LinearListADT<E> {
 	};
 
 	// used to help remove elements in the fastest possible way
-	public static E[] shift(E[] unshiftedArray,int index){
+	public E[] shiftOver(E[] localArray,int index){
 		/* We want to shift the least number of elements as possible so we just shift towards
-		whatever index is closer to a head or head + size */
-		int side = (size >> 1) > index ? head : head + size;
-		for(int e = 0; e < index; e++){
-			E oldElement = unshiftedArray[e];
-			E unshiftedArray[e] = unshiftedArray[e + side];
+		whatever side is closer i.g: if index being removed is in the lower half of the array shift the bottom
+		up.*/
+		if ( (size >> 1) > index ){
+			for(int e = head; e < index; e++){
+				int wrappedE = e > maxIndex ? e - maxIndex : e;
+				E oldElement = localArray[wrappedE];
+				localArray[wrappedE] = localArray[e];
+				localArray[e] = oldElement;
+			};
+			// If we shift up we need to move the head up one index
+			head++;
+		}
+		else {
+			for(int e = size; e > index; e--){
+				int wrappedE = e > maxIndex ? e - maxIndex : e;
+				E oldElement = localArray[wrappedE];
+				localArray[wrappedE] = localArray[e];
+				localArray[e] = oldElement;
+			}
 		};
+		// Size will always decrease on shifting and removing
+		size--;
+		return localArray;
 	};
 
 	// this needs to get finished
 	public Iterator<E> iterator(){
 		return new Iterator<E>(){
-			int index = -1;
+			// We don't want to touch the the ArrayLinearList instance variables
+			int index = head;
 			E[] storage = this.storage;
 
 			public boolean hasNext(){
-				int nextIndex = index + head + 1;
+				int nextIndex = index + 1;
 				// Making sure index wraps
 				nextIndex = nextIndex > maxIndex ? nextIndex - maxIndex : nextIndex;
 				return nextIndex <= size && nextIndex != head;
@@ -111,16 +139,14 @@ public class ArrayLinearList<E> implements LinearListADT<E> {
 				if(!this.hasNext()){
 					throw new NullPointerException("No more values.");
 				};
-				int nextIndex = ++index + head;
+				int nextIndex = index++;
 				nextIndex = nextIndex > maxIndex ? nextIndex - maxIndex : nextIndex;
 				return storage[nextIndex];
 			};
 
 			public void remove(){
-				// shift(storage, index);
-				// make the local iterator storage the instance of the list storage
-				this.storage = storage;
-				index++;
+				// Shift basically handles the removal, we just need to pass it our local array and the index
+				this.storage = shiftOver(storage,index);
 			};
 		};
 	};    
