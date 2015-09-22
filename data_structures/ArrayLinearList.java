@@ -157,7 +157,6 @@ public class ArrayLinearList<E> implements LinearListADT<E> {
 		return new Iterator<E>(){
 			// We don't want to touch the the ArrayLinearList instance variables
 			int index = head - 1;
-			int count = -1;
 			E[] iteratorStorage = storage;
 
 			public boolean hasNext(){
@@ -167,7 +166,7 @@ public class ArrayLinearList<E> implements LinearListADT<E> {
 				int nextIndex = index + 1;
 				// Making sure index wraps
 				nextIndex = nextIndex > maxIndex ? nextIndex - maxIndex - 1: nextIndex;
-				return count != size;
+				return index - head != size;
 			};
 			/* Tries to return next, regardless if there is a value there*/
 			public E next(){
@@ -177,7 +176,6 @@ public class ArrayLinearList<E> implements LinearListADT<E> {
 				int nextIndex = ++index;
 				nextIndex = nextIndex > maxIndex ? nextIndex - maxIndex - 1: nextIndex;
 				iteratorIndex = nextIndex;
-				count++;
 				return iteratorStorage[nextIndex];
 			};
 
