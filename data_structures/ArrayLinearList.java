@@ -2,7 +2,6 @@
    masc0338
 */
 package data_structures;
-
 import java.util.Iterator;
 import java.util.NoSuchElementException;
 
@@ -47,7 +46,7 @@ public class ArrayLinearList < E > implements LinearListADT < E > {
 	public E removeFirst() {
 		if (this.isEmpty()) return null;
 		E oldElement = storage[head];
-		head = head == maxIndex ? 0 : head++;
+		head = head == maxIndex ? 0 : head + 1;
 		size--;
 		return oldElement;
 	};
@@ -117,21 +116,26 @@ public class ArrayLinearList < E > implements LinearListADT < E > {
 		whatever side is closer i.g: if index being removed is in the lower half of the array shift the bottom
 		up. Alternatively we can do a shift from the index but we would still have to see which direction
 		we move in in order to pick the best side. */
-		if ((size >> 1) > index) {
-			for (int e = head; e < index; e++) {
-				int wrappedE = e > maxIndex ? e - maxIndex : e;
-				E oldElement = localArray[wrappedE];
-				localArray[wrappedE] = localArray[e];
-				localArray[e] = oldElement;
+
+		if ((size + 1 >> 1) > index) {
+			E lastElement = storage[head++];
+			for (int e = 0; e < size - 1; e++) {
+				int wrappedE = e + head > maxIndex ? e + head - maxIndex - 1 : e + head;
+				E elementHolder = localArray[wrappedE];
+				localArray[wrappedE] = lastElement;
+				lastElement = elementHolder;
 			};
 			// If we shift up we need to move the head up one index
 			head++;
 		} else {
-			for (int e = size; e > index; e--) {
-				int wrappedE = e > maxIndex ? e - maxIndex : e;
-				E oldElement = localArray[wrappedE];
-				localArray[wrappedE] = localArray[e];
-				localArray[e] = oldElement;
+			E lastElement = storage[size];
+			/* Add two because index and size are both zeo indexed and we want element number.
+			Also there is no need to decrease size if we are shifting to the left */
+			for (int e = index - size + 2; e >= 0; e--) {
+				int wrappedE = e <= 0 ? maxIndex + e : e;
+				E elementHolder = localArray[wrappedE];
+				localArray[wrappedE] = lastElement;
+				lastElement = elementHolder;
 			}
 		};
 		// Size will always decrease on shifting and removing
