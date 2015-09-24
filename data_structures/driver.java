@@ -4,9 +4,11 @@ import java.util.Iterator;
 public class driver {
     public static void main(String[] args) {
 	    LinearListADT<Integer> list = new ArrayLinearList<Integer>(10);
-        System.out.println("added stuff");
-	    for(int i=1; i <= 10; i++) 
-            list.addFirst(i);
+	    for(int i=1; i <= 10; i++){
+            System.out.println(list.addFirst(i));
+        };
+
+
         System.out.println("Should now print 10 .. 1");
         for(Integer i : list)
             System.out.println(i);
@@ -59,6 +61,7 @@ public class driver {
         System.out.println("Add First works");
 
         for(int i=1; i <= 10; i++){
+            System.out.println("Working on finding " + i );
             if(list.find(i) != i)
                 throw new RuntimeException("ERROR in find"); 
         }
@@ -72,23 +75,11 @@ public class driver {
         System.out.println(list.find(1));
         list.removeFirst();
         list.removeFirst();
-        System.out.println("size is: " + list.size());
-        System.out.println("Removed: " + list.remove(1));
-        System.out.println("Find again: " + list.find(1) + "\n\n\n");
-        System.out.println("size is: " + list.size());
-        System.out.println("First is: " + list.peekFirst());
 
-
-        System.out.println("\n\n Find 6: " +list.find(6));
-        System.out.println("Remove 6: " + list.remove(6));
-        System.out.println("Find 6 again: " + list.find(6));
-
-        list.addFirst(1337);
-        list.addFirst(2020);
-        System.out.println("\n\n Find 1337: " +list.find(1337));
-        System.out.println("Remove 1337: " + list.remove(1337));
-        System.out.println("Find 1337 again: " + list.find(1337));
-
+        for(int i = 1; i <=10; i++){
+            System.out.println("Removed: " + list.remove(i));
+            System.out.println("Find again: " + list.find(i) + "\n\n\n");
+        }
 
     }
 }

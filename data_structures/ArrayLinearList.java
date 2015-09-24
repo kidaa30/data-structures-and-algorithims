@@ -7,8 +7,14 @@ import java.util.NoSuchElementException;
 
 public class ArrayLinearList < E > implements LinearListADT < E > {
 	private E[] storage;
+	/* Head is where our pseudo-array begins, size is the inclusive distance to the tail, or the number
+	of elements in the list - 1, however you want to see it, we store it this way because it's much more
+	useful as the only time you need the actual size is when using the size function. 
+	*/
 	private int head, size, maxIndex;
-	// For ease of acccess
+	/* For ease of acccess. iteratorIndex is set by the iterator so we don't need to basically rewrite
+	the find method inside the remove function just to call remove(), instead we can just use what's 
+	already there. */
 	private int midIndex, iteratorIndex;
 
 	public ArrayLinearList(int size) {
@@ -16,18 +22,18 @@ public class ArrayLinearList < E > implements LinearListADT < E > {
 		storage = (E[]) new Object[size];
 		head = midIndex = (size >> 1);
 		maxIndex = size - 1;
+		// accessing the instance's size rather than the local scope
 		this.size = -1;
 	};
 
-	/* The adding and removing functions are basically the same, just reverses of each other with slight
-	differences. */
 	public boolean addFirst(E obj) {
 		if (this.isFull()) {
 			return false;
 		};
+		// We need to increase the size and decrease the head to add to the front
 		size++;
-		head = head == 0 ? maxIndex + 1 : head;
-		storage[--head] = obj;
+		head = getWrappedHead(--head);
+		storage[head] = obj;
 		return true;
 	};
 
@@ -35,47 +41,46 @@ public class ArrayLinearList < E > implements LinearListADT < E > {
 		if (this.isFull()) {
 			return false;
 		};
+		// When we add to last, only size changes not head
 		size++;
-		int rear = head + size;
-		// If we above the max index just take the difference which will wrap us around
-		rear = rear > maxIndex ? rear - maxIndex - 1 : rear;
-		storage[rear] = obj;
+		storage[getWrappedTail(head)] = obj;
 		return true;
 	};
 
 	public E removeFirst() {
 		if (this.isEmpty()) return null;
 		E oldElement = storage[head];
-		head = head == maxIndex ? 0 : head + 1;
+		head = getWrappedHead(++head);
 		size--;
 		return oldElement;
 	};
 
 	public E removeLast() {
-		int rear = head + size;
-		// If we above the max index just take the difference which will wrap us around
-		rear = rear > maxIndex ? rear - maxIndex - 1 : rear;
+		if(this.isEmpty()) return null;
+		int tail = getWrappedTail(head);
 		size--;
-		return this.isEmpty() ? null : storage[rear];
+		return storage[tail];
 	};
 
 	public E remove(E obj) {
-		// iterator index gets set here
+		/* iterator index gets set here, ideally we should check if the find function was
+		the last function called with the same parameter and whether or not it was successful, 
+		if it was we wouldn't need to call find again for removal. */
 		obj = find(obj);
 		if (obj == null) {
 			return null;
 		} else {
-			storage = shiftOver(storage, iteratorIndex);
+			shiftOver(iteratorIndex);
 		}
 		return obj;
 	};
 
 	public E peekFirst() {
-		return storage[head];
+		return  isEmpty() ? null : storage[head];
 	};
 
 	public E peekLast() {
-		return storage[head + size];
+		return isEmpty() ? null : storage[getWrappedTail(head)];
 	};
 
 	public boolean contains(E obj) {
@@ -107,74 +112,81 @@ public class ArrayLinearList < E > implements LinearListADT < E > {
 	};
 
 	public int size() {
+		// because we started counting size at 0 rather than 1 we add 1 to the returned value
 		return size + 1;
 	};
 
-	// used to help remove elements in the fastest possible way
-	private E[] shiftOver(E[] localArray, int index) {
-		/* We want to shift the least number of elements as possible so we just shift towards
-		whatever side is closer i.g: if index being removed is in the lower half of the array shift the bottom
-		up. Alternatively we can do a shift from the index but we would still have to see which direction
-		we move in in order to pick the best side. */
-
-		if ((size + 1 >> 1) > index) {
-			E lastElement = storage[head++];
-			for (int e = 0; e < size - 1; e++) {
-				int wrappedE = e + head > maxIndex ? e + head - maxIndex - 1 : e + head;
-				E elementHolder = localArray[wrappedE];
-				localArray[wrappedE] = lastElement;
-				lastElement = elementHolder;
-			};
-			// If we shift up we need to move the head up one index
-			head++;
-		} else {
-			E lastElement = storage[size];
-			/* Add two because index and size are both zeo indexed and we want element number.
-			Also there is no need to decrease size if we are shifting to the left */
-			for (int e = index - size + 2; e >= 0; e--) {
-				int wrappedE = e <= 0 ? maxIndex + e : e;
-				E elementHolder = localArray[wrappedE];
-				localArray[wrappedE] = lastElement;
-				lastElement = elementHolder;
-			}
-		};
-		// Size will always decrease on shifting and removing
-		size--;
-		return localArray;
-	};
-
 	public Iterator < E > iterator() {
-		// Returning an anon class of Iterator
+		// Returning an anon iterator
 		return new Iterator < E > () {
-			// We don't want to touch the the ArrayLinearList instance variables
-			int index = head - 1;
-			E[] iteratorStorage = storage;
+			// We don't want to touch the instance of head
+			int index = getWrappedHead(head - 1);
 
 			public boolean hasNext() {
-				if (size == -1) {
-					return false;
-				};
-				int nextIndex = index + 1;
-				// Making sure index wraps
-				nextIndex = nextIndex > maxIndex ? nextIndex - maxIndex - 1 : nextIndex;
-				return index - head != size;
+				/* We start at just below the head to make sure we iterate over the first element
+				*/
+				return index - head < size;
 			};
 			/* Tries to return next, regardless if there is a value there*/
 			public E next() {
 				if (!this.hasNext()) {
 					throw new NoSuchElementException();
-				};
-				int nextIndex = ++index;
-				nextIndex = nextIndex > maxIndex ? nextIndex - maxIndex - 1 : nextIndex;
-				iteratorIndex = nextIndex;
-				return iteratorStorage[nextIndex];
+				};				
+				iteratorIndex = getWrappedHead(++index);
+				return storage[iteratorIndex];
 			};
 
 			public void remove() {
-				// Shift basically handles the removal, we just need to pass it our local array and the index
-				iteratorStorage = shiftOver(storage, index);
-				storage = iteratorStorage;
+				/* Shift basically handles the removal, we just need to pass it our local array and the index,
+				Removal is also	*/
+				shiftOver(getWrappedHead(index));
 			};
 		};
+	};
+
+	/***********************
+		UTILITY FUNCTIONS	
+	************************
+	Trying to extrapulate some of the functionality...
+	*/
+	private int getWrappedTail(int head){
+		int tail = head + size;
+		// If we are above the max index just take the difference which will wrap us around
+		return tail > maxIndex ? tail - maxIndex - 1 : tail;
+	};
+	// Different from tale as you have to compensate for going from 0 -> -n rather than just maxN -> 0+remainder
+	private int getWrappedHead(int unwrappedHead){
+		if(unwrappedHead < 0){
+			return maxIndex;
+		}
+		else if(unwrappedHead > maxIndex){
+			return unwrappedHead - maxIndex - 1;
+		}
+		else{
+			return unwrappedHead;
+		}
+	};
+
+	private void shiftOver(int removalIndex) {
+		/* We want to shift the least number of elements as possible so we just shift towards
+		whatever side the index is closer to i.g: if index being removed is closer to the tail than
+		the head we just shift from the tail to the removalIndex and decrease the size. If it was closer
+		to the head we just shift from the head up to the removedIndex, decrease the size, AND increment
+		the head. This makes it so we only have to shift n/2 times. */
+		if ( removalIndex + head <= removalIndex + getWrappedTail(head)) {
+			for(int element = removalIndex; element > head; element--){
+				element = getWrappedHead(element);
+				storage[element] = storage[element - 1];
+			};
+			// If we shift up we need to move the head up one index
+			head++;
+		} else {
+			for(int element = removalIndex; element != getWrappedTail(head); element++ ){
+				element = getWrappedHead(element);
+				storage[element] = storage[getWrappedHead(element + 1)];
+			}
+		};
+		// Size will always decrease whichever side you shift towards
+		size--;
 	};
 }
