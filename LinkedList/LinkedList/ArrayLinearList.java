@@ -4,6 +4,7 @@
 package data_structures;
 import java.util.Iterator;
 import java.util.NoSuchElementException;
+import java.util.Arrays;
 
 public class ArrayLinearList < E > implements LinearListADT < E > {
 	private E[] storage;
@@ -125,13 +126,14 @@ public class ArrayLinearList < E > implements LinearListADT < E > {
 			public boolean hasNext() {
 				/* We start at just below the head to make sure we iterate over the first element
 				*/
-				return index - head < size;
+				System.out.println(Arrays.toString(storage) + " Head is " + head  + " size is " + size + " Index is " + index );
+				return index - head + 1 < size;
 			};
 			/* Tries to return next, regardless if there is a value there*/
 			public E next() {
 				if (!this.hasNext()) {
 					throw new NoSuchElementException();
-				};				
+				};
 				iteratorIndex = getWrappedHead(++index);
 				return storage[iteratorIndex];
 			};
@@ -139,7 +141,7 @@ public class ArrayLinearList < E > implements LinearListADT < E > {
 			public void remove() {
 				/* Shift basically handles the removal, we just need to pass it our local array and the index,
 				Removal is also	*/
-				shiftOver(getWrappedHead(index));
+				shiftOver(index);
 			};
 		};
 	};
@@ -181,7 +183,7 @@ public class ArrayLinearList < E > implements LinearListADT < E > {
 			// If we shift up we need to move the head up one index
 			head++;
 		} else {
-			for(int element = removalIndex; element != getWrappedTail(head); element++ ){
+			for(int element = removalIndex; element != head; element++ ){
 				element = getWrappedHead(element);
 				storage[element] = storage[getWrappedHead(element + 1)];
 			}
