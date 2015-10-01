@@ -1,7 +1,13 @@
-/* Michael Green
-   masc0338
+/*
+* Project for CS310, implementing a generic "circular array," basically a data structure that ignores the true indexes
+* of an array and wraps around to the other side of the array once it becomes full. All generic objects
+* need to implement compareTo in order to be found and replaced, as required by the assignment.
+* @todo tidy up some comments, do some more debugging.
+* @author Michael Green
+* @version Circular Array 1.1
 */
 package data_structures;
+
 import java.util.Iterator;
 import java.util.NoSuchElementException;
 
@@ -27,9 +33,7 @@ public class ArrayLinearList < E > implements LinearListADT < E > {
 	};
 
 	public boolean addFirst(E obj) {
-		if (this.isFull()) {
-			return false;
-		};
+		if (isFull()) return false;
 		// We need to increase the size and decrease the head to add to the front
 		size++;
 		head = getWrappedHead(--head);
@@ -38,9 +42,7 @@ public class ArrayLinearList < E > implements LinearListADT < E > {
 	};
 
 	public boolean addLast(E obj) {
-		if (this.isFull()) {
-			return false;
-		};
+		if (isFull()) return false;
 		// When we add to last, only size changes not head
 		size++;
 		storage[getWrappedTail(head)] = obj;
@@ -48,7 +50,7 @@ public class ArrayLinearList < E > implements LinearListADT < E > {
 	};
 
 	public E removeFirst() {
-		if (this.isEmpty()) return null;
+		if (isEmpty()) return null;
 		E oldElement = storage[head];
 		head = getWrappedHead(++head);
 		size--;
@@ -56,7 +58,7 @@ public class ArrayLinearList < E > implements LinearListADT < E > {
 	};
 
 	public E removeLast() {
-		if(this.isEmpty()) return null;
+		if(isEmpty()) return null;
 		int tail = getWrappedTail(head);
 		size--;
 		return storage[tail];
@@ -144,11 +146,7 @@ public class ArrayLinearList < E > implements LinearListADT < E > {
 		};
 	};
 
-	/***********************
-		UTILITY FUNCTIONS	
-	************************
-	Trying to extrapulate some of the functionality...
-	*/
+	/* Utility Functions */
 	private int getWrappedTail(int head){
 		int tail = head + size;
 		// If we are above the max index just take the difference which will wrap us around
