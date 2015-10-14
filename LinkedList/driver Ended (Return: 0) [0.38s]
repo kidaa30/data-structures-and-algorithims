@@ -1,0 +1,6710 @@
+Attempting Operations on Empty Structure
+null
+false
+null
+null
+0
+true
+false
+Peek First is: null Peek Last is: null
+Adding First. 
+ Current Size is: 0
+true
+Peek First is: 1 Peek Last is: 1
+Current Size now is: 1
+
+Adding First. 
+ Current Size is: 1
+true
+Peek First is: 2 Peek Last is: 1
+Current Size now is: 2
+
+Adding Last. 
+ Current Size is: 2
+true
+Peek First is: 2 Peek Last is: 3
+Current Size now is: 3
+
+Adding Last. 
+ Current Size is: 3
+true
+Peek First is: 2 Peek Last is: 4
+Current Size now is: 4
+
+Adding Last. 
+ Current Size is: 4
+true
+Peek First is: 2 Peek Last is: 5
+Current Size now is: 5
+
+Adding First. 
+ Current Size is: 5
+true
+Peek First is: 6 Peek Last is: 5
+Current Size now is: 6
+
+Adding First. 
+ Current Size is: 6
+true
+Peek First is: 7 Peek Last is: 5
+Current Size now is: 7
+
+Adding Last. 
+ Current Size is: 7
+true
+Peek First is: 7 Peek Last is: 8
+Current Size now is: 8
+
+Adding Last. 
+ Current Size is: 8
+true
+Peek First is: 7 Peek Last is: 9
+Current Size now is: 9
+
+
+Testing Iteration: (Should print a bunch of nums)
+7
+6
+2
+1
+3
+4
+5
+8
+9
+Should print then 1337 5 times.
+7
+6
+2
+1
+3
+4
+5
+8
+9
+1337
+1337
+1337
+1337
+1337
+Trying to find 3...
+Found: 3
+Contains: true
+
+
+--------
+Testing Removal: Current Size is: 14
+7
+Now Size is: 13
+ (last) Testing Removal: Current Size is: 13
+1337
+Now Size is: 12
+ (last) Testing Removal: Current Size is: 12
+1337
+Now Size is: 11
+ (last) Testing Removal: Current Size is: 11
+1337
+Now Size is: 10
+Testing Removal: Current Size is: 10
+6
+Now Size is: 9
+Testing Removal: Current Size is: 9
+2
+Now Size is: 8
+Testing Removal: Current Size is: 8
+1
+Now Size is: 7
+
+ Testing Iteration: 
+3
+4
+5
+8
+9
+1337
+1337
+Peek First is: 3 Peek Last is: 1337
+Trying to find 3...
+Found: 3
+Contains: true
+Adding Last: true
+Adding Last: true
+Adding Last: true
+Adding First: true
+First is: 616
+Trying to remove the number 616: 616
+Trying to remove 8575: 8575
+Attempting Operations on Empty Structure
+null
+false
+3
+2324
+7
+false
+false
+Peek First is: 4 Peek Last is: 32
+Adding First. 
+ Current Size is: 7
+true
+Peek First is: 1 Peek Last is: 32
+Current Size now is: 8
+
+Adding First. 
+ Current Size is: 8
+true
+Peek First is: 2 Peek Last is: 32
+Current Size now is: 9
+
+Adding Last. 
+ Current Size is: 9
+true
+Peek First is: 2 Peek Last is: 3
+Current Size now is: 10
+
+Adding Last. 
+ Current Size is: 10
+true
+Peek First is: 2 Peek Last is: 4
+Current Size now is: 11
+
+Adding Last. 
+ Current Size is: 11
+true
+Peek First is: 2 Peek Last is: 5
+Current Size now is: 12
+
+Adding First. 
+ Current Size is: 12
+true
+Peek First is: 6 Peek Last is: 5
+Current Size now is: 13
+
+Adding First. 
+ Current Size is: 13
+true
+Peek First is: 7 Peek Last is: 5
+Current Size now is: 14
+
+Adding Last. 
+ Current Size is: 14
+true
+Peek First is: 7 Peek Last is: 8
+Current Size now is: 15
+
+Adding Last. 
+ Current Size is: 15
+true
+Peek First is: 7 Peek Last is: 9
+Current Size now is: 16
+
+
+Testing Iteration: (Should print a bunch of nums)
+7
+6
+2
+1
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+Should print then 1337 5 times.
+7
+6
+2
+1
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+1337
+1337
+1337
+Trying to find 3...
+Found: 3
+Contains: true
+
+
+--------
+Testing Removal: Current Size is: 21
+7
+Now Size is: 20
+ (last) Testing Removal: Current Size is: 20
+1337
+Now Size is: 19
+ (last) Testing Removal: Current Size is: 19
+1337
+Now Size is: 18
+ (last) Testing Removal: Current Size is: 18
+1337
+Now Size is: 17
+Testing Removal: Current Size is: 17
+6
+Now Size is: 16
+Testing Removal: Current Size is: 16
+2
+Now Size is: 15
+Testing Removal: Current Size is: 15
+1
+Now Size is: 14
+
+ Testing Iteration: 
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+Peek First is: 4 Peek Last is: 1337
+Trying to find 3...
+Found: 3
+Contains: true
+Adding Last: true
+Adding Last: true
+Adding Last: true
+Adding First: true
+First is: 616
+Trying to remove the number 616: 616
+Trying to remove 8575: 8575
+Attempting Operations on Empty Structure
+null
+false
+4
+2324
+14
+false
+false
+Peek First is: 5 Peek Last is: 32
+Adding First. 
+ Current Size is: 14
+true
+Peek First is: 1 Peek Last is: 32
+Current Size now is: 15
+
+Adding First. 
+ Current Size is: 15
+true
+Peek First is: 2 Peek Last is: 32
+Current Size now is: 16
+
+Adding Last. 
+ Current Size is: 16
+true
+Peek First is: 2 Peek Last is: 3
+Current Size now is: 17
+
+Adding Last. 
+ Current Size is: 17
+true
+Peek First is: 2 Peek Last is: 4
+Current Size now is: 18
+
+Adding Last. 
+ Current Size is: 18
+true
+Peek First is: 2 Peek Last is: 5
+Current Size now is: 19
+
+Adding First. 
+ Current Size is: 19
+true
+Peek First is: 6 Peek Last is: 5
+Current Size now is: 20
+
+Adding First. 
+ Current Size is: 20
+true
+Peek First is: 7 Peek Last is: 5
+Current Size now is: 21
+
+Adding Last. 
+ Current Size is: 21
+true
+Peek First is: 7 Peek Last is: 8
+Current Size now is: 22
+
+Adding Last. 
+ Current Size is: 22
+true
+Peek First is: 7 Peek Last is: 9
+Current Size now is: 23
+
+
+Testing Iteration: (Should print a bunch of nums)
+7
+6
+2
+1
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+Should print then 1337 5 times.
+7
+6
+2
+1
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+1337
+1337
+1337
+Trying to find 3...
+Found: 3
+Contains: true
+
+
+--------
+Testing Removal: Current Size is: 28
+7
+Now Size is: 27
+ (last) Testing Removal: Current Size is: 27
+1337
+Now Size is: 26
+ (last) Testing Removal: Current Size is: 26
+1337
+Now Size is: 25
+ (last) Testing Removal: Current Size is: 25
+1337
+Now Size is: 24
+Testing Removal: Current Size is: 24
+6
+Now Size is: 23
+Testing Removal: Current Size is: 23
+2
+Now Size is: 22
+Testing Removal: Current Size is: 22
+1
+Now Size is: 21
+
+ Testing Iteration: 
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+Peek First is: 5 Peek Last is: 1337
+Trying to find 3...
+Found: 3
+Contains: true
+Adding Last: true
+Adding Last: true
+Adding Last: true
+Adding First: true
+First is: 616
+Trying to remove the number 616: 616
+Trying to remove 8575: 8575
+Attempting Operations on Empty Structure
+null
+false
+5
+2324
+21
+false
+false
+Peek First is: 8 Peek Last is: 32
+Adding First. 
+ Current Size is: 21
+true
+Peek First is: 1 Peek Last is: 32
+Current Size now is: 22
+
+Adding First. 
+ Current Size is: 22
+true
+Peek First is: 2 Peek Last is: 32
+Current Size now is: 23
+
+Adding Last. 
+ Current Size is: 23
+true
+Peek First is: 2 Peek Last is: 3
+Current Size now is: 24
+
+Adding Last. 
+ Current Size is: 24
+true
+Peek First is: 2 Peek Last is: 4
+Current Size now is: 25
+
+Adding Last. 
+ Current Size is: 25
+true
+Peek First is: 2 Peek Last is: 5
+Current Size now is: 26
+
+Adding First. 
+ Current Size is: 26
+true
+Peek First is: 6 Peek Last is: 5
+Current Size now is: 27
+
+Adding First. 
+ Current Size is: 27
+true
+Peek First is: 7 Peek Last is: 5
+Current Size now is: 28
+
+Adding Last. 
+ Current Size is: 28
+true
+Peek First is: 7 Peek Last is: 8
+Current Size now is: 29
+
+Adding Last. 
+ Current Size is: 29
+true
+Peek First is: 7 Peek Last is: 9
+Current Size now is: 30
+
+
+Testing Iteration: (Should print a bunch of nums)
+7
+6
+2
+1
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+Should print then 1337 5 times.
+7
+6
+2
+1
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+1337
+1337
+1337
+Trying to find 3...
+Found: 3
+Contains: true
+
+
+--------
+Testing Removal: Current Size is: 35
+7
+Now Size is: 34
+ (last) Testing Removal: Current Size is: 34
+1337
+Now Size is: 33
+ (last) Testing Removal: Current Size is: 33
+1337
+Now Size is: 32
+ (last) Testing Removal: Current Size is: 32
+1337
+Now Size is: 31
+Testing Removal: Current Size is: 31
+6
+Now Size is: 30
+Testing Removal: Current Size is: 30
+2
+Now Size is: 29
+Testing Removal: Current Size is: 29
+1
+Now Size is: 28
+
+ Testing Iteration: 
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+Peek First is: 8 Peek Last is: 1337
+Trying to find 3...
+Found: 3
+Contains: true
+Adding Last: true
+Adding Last: true
+Adding Last: true
+Adding First: true
+First is: 616
+Trying to remove the number 616: 616
+Trying to remove 8575: 8575
+Attempting Operations on Empty Structure
+null
+false
+8
+2324
+28
+false
+false
+Peek First is: 9 Peek Last is: 32
+Adding First. 
+ Current Size is: 28
+true
+Peek First is: 1 Peek Last is: 32
+Current Size now is: 29
+
+Adding First. 
+ Current Size is: 29
+true
+Peek First is: 2 Peek Last is: 32
+Current Size now is: 30
+
+Adding Last. 
+ Current Size is: 30
+true
+Peek First is: 2 Peek Last is: 3
+Current Size now is: 31
+
+Adding Last. 
+ Current Size is: 31
+true
+Peek First is: 2 Peek Last is: 4
+Current Size now is: 32
+
+Adding Last. 
+ Current Size is: 32
+true
+Peek First is: 2 Peek Last is: 5
+Current Size now is: 33
+
+Adding First. 
+ Current Size is: 33
+true
+Peek First is: 6 Peek Last is: 5
+Current Size now is: 34
+
+Adding First. 
+ Current Size is: 34
+true
+Peek First is: 7 Peek Last is: 5
+Current Size now is: 35
+
+Adding Last. 
+ Current Size is: 35
+true
+Peek First is: 7 Peek Last is: 8
+Current Size now is: 36
+
+Adding Last. 
+ Current Size is: 36
+true
+Peek First is: 7 Peek Last is: 9
+Current Size now is: 37
+
+
+Testing Iteration: (Should print a bunch of nums)
+7
+6
+2
+1
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+Should print then 1337 5 times.
+7
+6
+2
+1
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+1337
+1337
+1337
+Trying to find 3...
+Found: 3
+Contains: true
+
+
+--------
+Testing Removal: Current Size is: 42
+7
+Now Size is: 41
+ (last) Testing Removal: Current Size is: 41
+1337
+Now Size is: 40
+ (last) Testing Removal: Current Size is: 40
+1337
+Now Size is: 39
+ (last) Testing Removal: Current Size is: 39
+1337
+Now Size is: 38
+Testing Removal: Current Size is: 38
+6
+Now Size is: 37
+Testing Removal: Current Size is: 37
+2
+Now Size is: 36
+Testing Removal: Current Size is: 36
+1
+Now Size is: 35
+
+ Testing Iteration: 
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+Peek First is: 9 Peek Last is: 1337
+Trying to find 3...
+Found: 3
+Contains: true
+Adding Last: true
+Adding Last: true
+Adding Last: true
+Adding First: true
+First is: 616
+Trying to remove the number 616: 616
+Trying to remove 8575: 8575
+Attempting Operations on Empty Structure
+null
+false
+9
+2324
+35
+false
+false
+Peek First is: 1337 Peek Last is: 32
+Adding First. 
+ Current Size is: 35
+true
+Peek First is: 1 Peek Last is: 32
+Current Size now is: 36
+
+Adding First. 
+ Current Size is: 36
+true
+Peek First is: 2 Peek Last is: 32
+Current Size now is: 37
+
+Adding Last. 
+ Current Size is: 37
+true
+Peek First is: 2 Peek Last is: 3
+Current Size now is: 38
+
+Adding Last. 
+ Current Size is: 38
+true
+Peek First is: 2 Peek Last is: 4
+Current Size now is: 39
+
+Adding Last. 
+ Current Size is: 39
+true
+Peek First is: 2 Peek Last is: 5
+Current Size now is: 40
+
+Adding First. 
+ Current Size is: 40
+true
+Peek First is: 6 Peek Last is: 5
+Current Size now is: 41
+
+Adding First. 
+ Current Size is: 41
+true
+Peek First is: 7 Peek Last is: 5
+Current Size now is: 42
+
+Adding Last. 
+ Current Size is: 42
+true
+Peek First is: 7 Peek Last is: 8
+Current Size now is: 43
+
+Adding Last. 
+ Current Size is: 43
+true
+Peek First is: 7 Peek Last is: 9
+Current Size now is: 44
+
+
+Testing Iteration: (Should print a bunch of nums)
+7
+6
+2
+1
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+Should print then 1337 5 times.
+7
+6
+2
+1
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+1337
+1337
+1337
+Trying to find 3...
+Found: 3
+Contains: true
+
+
+--------
+Testing Removal: Current Size is: 49
+7
+Now Size is: 48
+ (last) Testing Removal: Current Size is: 48
+1337
+Now Size is: 47
+ (last) Testing Removal: Current Size is: 47
+1337
+Now Size is: 46
+ (last) Testing Removal: Current Size is: 46
+1337
+Now Size is: 45
+Testing Removal: Current Size is: 45
+6
+Now Size is: 44
+Testing Removal: Current Size is: 44
+2
+Now Size is: 43
+Testing Removal: Current Size is: 43
+1
+Now Size is: 42
+
+ Testing Iteration: 
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+Peek First is: 1337 Peek Last is: 1337
+Trying to find 3...
+Found: 3
+Contains: true
+Adding Last: true
+Adding Last: true
+Adding Last: true
+Adding First: true
+First is: 616
+Trying to remove the number 616: 616
+Trying to remove 8575: 8575
+Attempting Operations on Empty Structure
+null
+false
+1337
+2324
+42
+false
+false
+Peek First is: 1337 Peek Last is: 32
+Adding First. 
+ Current Size is: 42
+true
+Peek First is: 1 Peek Last is: 32
+Current Size now is: 43
+
+Adding First. 
+ Current Size is: 43
+true
+Peek First is: 2 Peek Last is: 32
+Current Size now is: 44
+
+Adding Last. 
+ Current Size is: 44
+true
+Peek First is: 2 Peek Last is: 3
+Current Size now is: 45
+
+Adding Last. 
+ Current Size is: 45
+true
+Peek First is: 2 Peek Last is: 4
+Current Size now is: 46
+
+Adding Last. 
+ Current Size is: 46
+true
+Peek First is: 2 Peek Last is: 5
+Current Size now is: 47
+
+Adding First. 
+ Current Size is: 47
+true
+Peek First is: 6 Peek Last is: 5
+Current Size now is: 48
+
+Adding First. 
+ Current Size is: 48
+true
+Peek First is: 7 Peek Last is: 5
+Current Size now is: 49
+
+Adding Last. 
+ Current Size is: 49
+true
+Peek First is: 7 Peek Last is: 8
+Current Size now is: 50
+
+Adding Last. 
+ Current Size is: 50
+true
+Peek First is: 7 Peek Last is: 9
+Current Size now is: 51
+
+
+Testing Iteration: (Should print a bunch of nums)
+7
+6
+2
+1
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+Should print then 1337 5 times.
+7
+6
+2
+1
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+1337
+1337
+1337
+Trying to find 3...
+Found: 3
+Contains: true
+
+
+--------
+Testing Removal: Current Size is: 56
+7
+Now Size is: 55
+ (last) Testing Removal: Current Size is: 55
+1337
+Now Size is: 54
+ (last) Testing Removal: Current Size is: 54
+1337
+Now Size is: 53
+ (last) Testing Removal: Current Size is: 53
+1337
+Now Size is: 52
+Testing Removal: Current Size is: 52
+6
+Now Size is: 51
+Testing Removal: Current Size is: 51
+2
+Now Size is: 50
+Testing Removal: Current Size is: 50
+1
+Now Size is: 49
+
+ Testing Iteration: 
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+Peek First is: 1337 Peek Last is: 1337
+Trying to find 3...
+Found: 3
+Contains: true
+Adding Last: true
+Adding Last: true
+Adding Last: true
+Adding First: true
+First is: 616
+Trying to remove the number 616: 616
+Trying to remove 8575: 8575
+Attempting Operations on Empty Structure
+null
+false
+1337
+2324
+49
+false
+false
+Peek First is: 32 Peek Last is: 32
+Adding First. 
+ Current Size is: 49
+true
+Peek First is: 1 Peek Last is: 32
+Current Size now is: 50
+
+Adding First. 
+ Current Size is: 50
+true
+Peek First is: 2 Peek Last is: 32
+Current Size now is: 51
+
+Adding Last. 
+ Current Size is: 51
+true
+Peek First is: 2 Peek Last is: 3
+Current Size now is: 52
+
+Adding Last. 
+ Current Size is: 52
+true
+Peek First is: 2 Peek Last is: 4
+Current Size now is: 53
+
+Adding Last. 
+ Current Size is: 53
+true
+Peek First is: 2 Peek Last is: 5
+Current Size now is: 54
+
+Adding First. 
+ Current Size is: 54
+true
+Peek First is: 6 Peek Last is: 5
+Current Size now is: 55
+
+Adding First. 
+ Current Size is: 55
+true
+Peek First is: 7 Peek Last is: 5
+Current Size now is: 56
+
+Adding Last. 
+ Current Size is: 56
+true
+Peek First is: 7 Peek Last is: 8
+Current Size now is: 57
+
+Adding Last. 
+ Current Size is: 57
+true
+Peek First is: 7 Peek Last is: 9
+Current Size now is: 58
+
+
+Testing Iteration: (Should print a bunch of nums)
+7
+6
+2
+1
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+Should print then 1337 5 times.
+7
+6
+2
+1
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+1337
+1337
+1337
+Trying to find 3...
+Found: 3
+Contains: true
+
+
+--------
+Testing Removal: Current Size is: 63
+7
+Now Size is: 62
+ (last) Testing Removal: Current Size is: 62
+1337
+Now Size is: 61
+ (last) Testing Removal: Current Size is: 61
+1337
+Now Size is: 60
+ (last) Testing Removal: Current Size is: 60
+1337
+Now Size is: 59
+Testing Removal: Current Size is: 59
+6
+Now Size is: 58
+Testing Removal: Current Size is: 58
+2
+Now Size is: 57
+Testing Removal: Current Size is: 57
+1
+Now Size is: 56
+
+ Testing Iteration: 
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+Peek First is: 32 Peek Last is: 1337
+Trying to find 3...
+Found: 3
+Contains: true
+Adding Last: true
+Adding Last: true
+Adding Last: true
+Adding First: true
+First is: 616
+Trying to remove the number 616: 616
+Trying to remove 8575: 8575
+Attempting Operations on Empty Structure
+null
+false
+32
+2324
+56
+false
+false
+Peek First is: 3 Peek Last is: 32
+Adding First. 
+ Current Size is: 56
+true
+Peek First is: 1 Peek Last is: 32
+Current Size now is: 57
+
+Adding First. 
+ Current Size is: 57
+true
+Peek First is: 2 Peek Last is: 32
+Current Size now is: 58
+
+Adding Last. 
+ Current Size is: 58
+true
+Peek First is: 2 Peek Last is: 3
+Current Size now is: 59
+
+Adding Last. 
+ Current Size is: 59
+true
+Peek First is: 2 Peek Last is: 4
+Current Size now is: 60
+
+Adding Last. 
+ Current Size is: 60
+true
+Peek First is: 2 Peek Last is: 5
+Current Size now is: 61
+
+Adding First. 
+ Current Size is: 61
+true
+Peek First is: 6 Peek Last is: 5
+Current Size now is: 62
+
+Adding First. 
+ Current Size is: 62
+true
+Peek First is: 7 Peek Last is: 5
+Current Size now is: 63
+
+Adding Last. 
+ Current Size is: 63
+true
+Peek First is: 7 Peek Last is: 8
+Current Size now is: 64
+
+Adding Last. 
+ Current Size is: 64
+true
+Peek First is: 7 Peek Last is: 9
+Current Size now is: 65
+
+
+Testing Iteration: (Should print a bunch of nums)
+7
+6
+2
+1
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+Should print then 1337 5 times.
+7
+6
+2
+1
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+1337
+1337
+1337
+Trying to find 3...
+Found: 3
+Contains: true
+
+
+--------
+Testing Removal: Current Size is: 70
+7
+Now Size is: 69
+ (last) Testing Removal: Current Size is: 69
+1337
+Now Size is: 68
+ (last) Testing Removal: Current Size is: 68
+1337
+Now Size is: 67
+ (last) Testing Removal: Current Size is: 67
+1337
+Now Size is: 66
+Testing Removal: Current Size is: 66
+6
+Now Size is: 65
+Testing Removal: Current Size is: 65
+2
+Now Size is: 64
+Testing Removal: Current Size is: 64
+1
+Now Size is: 63
+
+ Testing Iteration: 
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+Peek First is: 3 Peek Last is: 1337
+Trying to find 3...
+Found: 3
+Contains: true
+Adding Last: true
+Adding Last: true
+Adding Last: true
+Adding First: true
+First is: 616
+Trying to remove the number 616: 616
+Trying to remove 8575: 8575
+Attempting Operations on Empty Structure
+null
+false
+3
+2324
+63
+false
+false
+Peek First is: 4 Peek Last is: 32
+Adding First. 
+ Current Size is: 63
+true
+Peek First is: 1 Peek Last is: 32
+Current Size now is: 64
+
+Adding First. 
+ Current Size is: 64
+true
+Peek First is: 2 Peek Last is: 32
+Current Size now is: 65
+
+Adding Last. 
+ Current Size is: 65
+true
+Peek First is: 2 Peek Last is: 3
+Current Size now is: 66
+
+Adding Last. 
+ Current Size is: 66
+true
+Peek First is: 2 Peek Last is: 4
+Current Size now is: 67
+
+Adding Last. 
+ Current Size is: 67
+true
+Peek First is: 2 Peek Last is: 5
+Current Size now is: 68
+
+Adding First. 
+ Current Size is: 68
+true
+Peek First is: 6 Peek Last is: 5
+Current Size now is: 69
+
+Adding First. 
+ Current Size is: 69
+true
+Peek First is: 7 Peek Last is: 5
+Current Size now is: 70
+
+Adding Last. 
+ Current Size is: 70
+true
+Peek First is: 7 Peek Last is: 8
+Current Size now is: 71
+
+Adding Last. 
+ Current Size is: 71
+true
+Peek First is: 7 Peek Last is: 9
+Current Size now is: 72
+
+
+Testing Iteration: (Should print a bunch of nums)
+7
+6
+2
+1
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+Should print then 1337 5 times.
+7
+6
+2
+1
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+1337
+1337
+1337
+Trying to find 3...
+Found: 3
+Contains: true
+
+
+--------
+Testing Removal: Current Size is: 77
+7
+Now Size is: 76
+ (last) Testing Removal: Current Size is: 76
+1337
+Now Size is: 75
+ (last) Testing Removal: Current Size is: 75
+1337
+Now Size is: 74
+ (last) Testing Removal: Current Size is: 74
+1337
+Now Size is: 73
+Testing Removal: Current Size is: 73
+6
+Now Size is: 72
+Testing Removal: Current Size is: 72
+2
+Now Size is: 71
+Testing Removal: Current Size is: 71
+1
+Now Size is: 70
+
+ Testing Iteration: 
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+Peek First is: 4 Peek Last is: 1337
+Trying to find 3...
+Found: 3
+Contains: true
+Adding Last: true
+Adding Last: true
+Adding Last: true
+Adding First: true
+First is: 616
+Trying to remove the number 616: 616
+Trying to remove 8575: 8575
+Attempting Operations on Empty Structure
+null
+false
+4
+2324
+70
+false
+false
+Peek First is: 5 Peek Last is: 32
+Adding First. 
+ Current Size is: 70
+true
+Peek First is: 1 Peek Last is: 32
+Current Size now is: 71
+
+Adding First. 
+ Current Size is: 71
+true
+Peek First is: 2 Peek Last is: 32
+Current Size now is: 72
+
+Adding Last. 
+ Current Size is: 72
+true
+Peek First is: 2 Peek Last is: 3
+Current Size now is: 73
+
+Adding Last. 
+ Current Size is: 73
+true
+Peek First is: 2 Peek Last is: 4
+Current Size now is: 74
+
+Adding Last. 
+ Current Size is: 74
+true
+Peek First is: 2 Peek Last is: 5
+Current Size now is: 75
+
+Adding First. 
+ Current Size is: 75
+true
+Peek First is: 6 Peek Last is: 5
+Current Size now is: 76
+
+Adding First. 
+ Current Size is: 76
+true
+Peek First is: 7 Peek Last is: 5
+Current Size now is: 77
+
+Adding Last. 
+ Current Size is: 77
+true
+Peek First is: 7 Peek Last is: 8
+Current Size now is: 78
+
+Adding Last. 
+ Current Size is: 78
+true
+Peek First is: 7 Peek Last is: 9
+Current Size now is: 79
+
+
+Testing Iteration: (Should print a bunch of nums)
+7
+6
+2
+1
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+Should print then 1337 5 times.
+7
+6
+2
+1
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+1337
+1337
+1337
+Trying to find 3...
+Found: 3
+Contains: true
+
+
+--------
+Testing Removal: Current Size is: 84
+7
+Now Size is: 83
+ (last) Testing Removal: Current Size is: 83
+1337
+Now Size is: 82
+ (last) Testing Removal: Current Size is: 82
+1337
+Now Size is: 81
+ (last) Testing Removal: Current Size is: 81
+1337
+Now Size is: 80
+Testing Removal: Current Size is: 80
+6
+Now Size is: 79
+Testing Removal: Current Size is: 79
+2
+Now Size is: 78
+Testing Removal: Current Size is: 78
+1
+Now Size is: 77
+
+ Testing Iteration: 
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+Peek First is: 5 Peek Last is: 1337
+Trying to find 3...
+Found: 3
+Contains: true
+Adding Last: true
+Adding Last: true
+Adding Last: true
+Adding First: true
+First is: 616
+Trying to remove the number 616: 616
+Trying to remove 8575: 8575
+Attempting Operations on Empty Structure
+null
+false
+5
+2324
+77
+false
+false
+Peek First is: 8 Peek Last is: 32
+Adding First. 
+ Current Size is: 77
+true
+Peek First is: 1 Peek Last is: 32
+Current Size now is: 78
+
+Adding First. 
+ Current Size is: 78
+true
+Peek First is: 2 Peek Last is: 32
+Current Size now is: 79
+
+Adding Last. 
+ Current Size is: 79
+true
+Peek First is: 2 Peek Last is: 3
+Current Size now is: 80
+
+Adding Last. 
+ Current Size is: 80
+true
+Peek First is: 2 Peek Last is: 4
+Current Size now is: 81
+
+Adding Last. 
+ Current Size is: 81
+true
+Peek First is: 2 Peek Last is: 5
+Current Size now is: 82
+
+Adding First. 
+ Current Size is: 82
+true
+Peek First is: 6 Peek Last is: 5
+Current Size now is: 83
+
+Adding First. 
+ Current Size is: 83
+true
+Peek First is: 7 Peek Last is: 5
+Current Size now is: 84
+
+Adding Last. 
+ Current Size is: 84
+true
+Peek First is: 7 Peek Last is: 8
+Current Size now is: 85
+
+Adding Last. 
+ Current Size is: 85
+true
+Peek First is: 7 Peek Last is: 9
+Current Size now is: 86
+
+
+Testing Iteration: (Should print a bunch of nums)
+7
+6
+2
+1
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+Should print then 1337 5 times.
+7
+6
+2
+1
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+1337
+1337
+1337
+Trying to find 3...
+Found: 3
+Contains: true
+
+
+--------
+Testing Removal: Current Size is: 91
+7
+Now Size is: 90
+ (last) Testing Removal: Current Size is: 90
+1337
+Now Size is: 89
+ (last) Testing Removal: Current Size is: 89
+1337
+Now Size is: 88
+ (last) Testing Removal: Current Size is: 88
+1337
+Now Size is: 87
+Testing Removal: Current Size is: 87
+6
+Now Size is: 86
+Testing Removal: Current Size is: 86
+2
+Now Size is: 85
+Testing Removal: Current Size is: 85
+1
+Now Size is: 84
+
+ Testing Iteration: 
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+Peek First is: 8 Peek Last is: 1337
+Trying to find 3...
+Found: 3
+Contains: true
+Adding Last: true
+Adding Last: true
+Adding Last: true
+Adding First: true
+First is: 616
+Trying to remove the number 616: 616
+Trying to remove 8575: 8575
+Attempting Operations on Empty Structure
+null
+false
+8
+2324
+84
+false
+false
+Peek First is: 9 Peek Last is: 32
+Adding First. 
+ Current Size is: 84
+true
+Peek First is: 1 Peek Last is: 32
+Current Size now is: 85
+
+Adding First. 
+ Current Size is: 85
+true
+Peek First is: 2 Peek Last is: 32
+Current Size now is: 86
+
+Adding Last. 
+ Current Size is: 86
+true
+Peek First is: 2 Peek Last is: 3
+Current Size now is: 87
+
+Adding Last. 
+ Current Size is: 87
+true
+Peek First is: 2 Peek Last is: 4
+Current Size now is: 88
+
+Adding Last. 
+ Current Size is: 88
+true
+Peek First is: 2 Peek Last is: 5
+Current Size now is: 89
+
+Adding First. 
+ Current Size is: 89
+true
+Peek First is: 6 Peek Last is: 5
+Current Size now is: 90
+
+Adding First. 
+ Current Size is: 90
+true
+Peek First is: 7 Peek Last is: 5
+Current Size now is: 91
+
+Adding Last. 
+ Current Size is: 91
+true
+Peek First is: 7 Peek Last is: 8
+Current Size now is: 92
+
+Adding Last. 
+ Current Size is: 92
+true
+Peek First is: 7 Peek Last is: 9
+Current Size now is: 93
+
+
+Testing Iteration: (Should print a bunch of nums)
+7
+6
+2
+1
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+Should print then 1337 5 times.
+7
+6
+2
+1
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+1337
+1337
+1337
+Trying to find 3...
+Found: 3
+Contains: true
+
+
+--------
+Testing Removal: Current Size is: 98
+7
+Now Size is: 97
+ (last) Testing Removal: Current Size is: 97
+1337
+Now Size is: 96
+ (last) Testing Removal: Current Size is: 96
+1337
+Now Size is: 95
+ (last) Testing Removal: Current Size is: 95
+1337
+Now Size is: 94
+Testing Removal: Current Size is: 94
+6
+Now Size is: 93
+Testing Removal: Current Size is: 93
+2
+Now Size is: 92
+Testing Removal: Current Size is: 92
+1
+Now Size is: 91
+
+ Testing Iteration: 
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+Peek First is: 9 Peek Last is: 1337
+Trying to find 3...
+Found: 3
+Contains: true
+Adding Last: true
+Adding Last: true
+Adding Last: true
+Adding First: true
+First is: 616
+Trying to remove the number 616: 616
+Trying to remove 8575: 8575
+Attempting Operations on Empty Structure
+null
+false
+9
+2324
+91
+false
+false
+Peek First is: 1337 Peek Last is: 32
+Adding First. 
+ Current Size is: 91
+true
+Peek First is: 1 Peek Last is: 32
+Current Size now is: 92
+
+Adding First. 
+ Current Size is: 92
+true
+Peek First is: 2 Peek Last is: 32
+Current Size now is: 93
+
+Adding Last. 
+ Current Size is: 93
+true
+Peek First is: 2 Peek Last is: 3
+Current Size now is: 94
+
+Adding Last. 
+ Current Size is: 94
+true
+Peek First is: 2 Peek Last is: 4
+Current Size now is: 95
+
+Adding Last. 
+ Current Size is: 95
+true
+Peek First is: 2 Peek Last is: 5
+Current Size now is: 96
+
+Adding First. 
+ Current Size is: 96
+true
+Peek First is: 6 Peek Last is: 5
+Current Size now is: 97
+
+Adding First. 
+ Current Size is: 97
+true
+Peek First is: 7 Peek Last is: 5
+Current Size now is: 98
+
+Adding Last. 
+ Current Size is: 98
+true
+Peek First is: 7 Peek Last is: 8
+Current Size now is: 99
+
+Adding Last. 
+ Current Size is: 99
+true
+Peek First is: 7 Peek Last is: 9
+Current Size now is: 100
+
+
+Testing Iteration: (Should print a bunch of nums)
+7
+6
+2
+1
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+Should print then 1337 5 times.
+7
+6
+2
+1
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+1337
+1337
+1337
+Trying to find 3...
+Found: 3
+Contains: true
+
+
+--------
+Testing Removal: Current Size is: 105
+7
+Now Size is: 104
+ (last) Testing Removal: Current Size is: 104
+1337
+Now Size is: 103
+ (last) Testing Removal: Current Size is: 103
+1337
+Now Size is: 102
+ (last) Testing Removal: Current Size is: 102
+1337
+Now Size is: 101
+Testing Removal: Current Size is: 101
+6
+Now Size is: 100
+Testing Removal: Current Size is: 100
+2
+Now Size is: 99
+Testing Removal: Current Size is: 99
+1
+Now Size is: 98
+
+ Testing Iteration: 
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+Peek First is: 1337 Peek Last is: 1337
+Trying to find 3...
+Found: 3
+Contains: true
+Adding Last: true
+Adding Last: true
+Adding Last: true
+Adding First: true
+First is: 616
+Trying to remove the number 616: 616
+Trying to remove 8575: 8575
+Attempting Operations on Empty Structure
+null
+false
+1337
+2324
+98
+false
+false
+Peek First is: 1337 Peek Last is: 32
+Adding First. 
+ Current Size is: 98
+true
+Peek First is: 1 Peek Last is: 32
+Current Size now is: 99
+
+Adding First. 
+ Current Size is: 99
+true
+Peek First is: 2 Peek Last is: 32
+Current Size now is: 100
+
+Adding Last. 
+ Current Size is: 100
+true
+Peek First is: 2 Peek Last is: 3
+Current Size now is: 101
+
+Adding Last. 
+ Current Size is: 101
+true
+Peek First is: 2 Peek Last is: 4
+Current Size now is: 102
+
+Adding Last. 
+ Current Size is: 102
+true
+Peek First is: 2 Peek Last is: 5
+Current Size now is: 103
+
+Adding First. 
+ Current Size is: 103
+true
+Peek First is: 6 Peek Last is: 5
+Current Size now is: 104
+
+Adding First. 
+ Current Size is: 104
+true
+Peek First is: 7 Peek Last is: 5
+Current Size now is: 105
+
+Adding Last. 
+ Current Size is: 105
+true
+Peek First is: 7 Peek Last is: 8
+Current Size now is: 106
+
+Adding Last. 
+ Current Size is: 106
+true
+Peek First is: 7 Peek Last is: 9
+Current Size now is: 107
+
+
+Testing Iteration: (Should print a bunch of nums)
+7
+6
+2
+1
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+Should print then 1337 5 times.
+7
+6
+2
+1
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+1337
+1337
+1337
+Trying to find 3...
+Found: 3
+Contains: true
+
+
+--------
+Testing Removal: Current Size is: 112
+7
+Now Size is: 111
+ (last) Testing Removal: Current Size is: 111
+1337
+Now Size is: 110
+ (last) Testing Removal: Current Size is: 110
+1337
+Now Size is: 109
+ (last) Testing Removal: Current Size is: 109
+1337
+Now Size is: 108
+Testing Removal: Current Size is: 108
+6
+Now Size is: 107
+Testing Removal: Current Size is: 107
+2
+Now Size is: 106
+Testing Removal: Current Size is: 106
+1
+Now Size is: 105
+
+ Testing Iteration: 
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+Peek First is: 1337 Peek Last is: 1337
+Trying to find 3...
+Found: 3
+Contains: true
+Adding Last: true
+Adding Last: true
+Adding Last: true
+Adding First: true
+First is: 616
+Trying to remove the number 616: 616
+Trying to remove 8575: 8575
+Attempting Operations on Empty Structure
+null
+false
+1337
+2324
+105
+false
+false
+Peek First is: 32 Peek Last is: 32
+Adding First. 
+ Current Size is: 105
+true
+Peek First is: 1 Peek Last is: 32
+Current Size now is: 106
+
+Adding First. 
+ Current Size is: 106
+true
+Peek First is: 2 Peek Last is: 32
+Current Size now is: 107
+
+Adding Last. 
+ Current Size is: 107
+true
+Peek First is: 2 Peek Last is: 3
+Current Size now is: 108
+
+Adding Last. 
+ Current Size is: 108
+true
+Peek First is: 2 Peek Last is: 4
+Current Size now is: 109
+
+Adding Last. 
+ Current Size is: 109
+true
+Peek First is: 2 Peek Last is: 5
+Current Size now is: 110
+
+Adding First. 
+ Current Size is: 110
+true
+Peek First is: 6 Peek Last is: 5
+Current Size now is: 111
+
+Adding First. 
+ Current Size is: 111
+true
+Peek First is: 7 Peek Last is: 5
+Current Size now is: 112
+
+Adding Last. 
+ Current Size is: 112
+true
+Peek First is: 7 Peek Last is: 8
+Current Size now is: 113
+
+Adding Last. 
+ Current Size is: 113
+true
+Peek First is: 7 Peek Last is: 9
+Current Size now is: 114
+
+
+Testing Iteration: (Should print a bunch of nums)
+7
+6
+2
+1
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+Should print then 1337 5 times.
+7
+6
+2
+1
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+1337
+1337
+1337
+Trying to find 3...
+Found: 3
+Contains: true
+
+
+--------
+Testing Removal: Current Size is: 119
+7
+Now Size is: 118
+ (last) Testing Removal: Current Size is: 118
+1337
+Now Size is: 117
+ (last) Testing Removal: Current Size is: 117
+1337
+Now Size is: 116
+ (last) Testing Removal: Current Size is: 116
+1337
+Now Size is: 115
+Testing Removal: Current Size is: 115
+6
+Now Size is: 114
+Testing Removal: Current Size is: 114
+2
+Now Size is: 113
+Testing Removal: Current Size is: 113
+1
+Now Size is: 112
+
+ Testing Iteration: 
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+Peek First is: 32 Peek Last is: 1337
+Trying to find 3...
+Found: 3
+Contains: true
+Adding Last: true
+Adding Last: true
+Adding Last: true
+Adding First: true
+First is: 616
+Trying to remove the number 616: 616
+Trying to remove 8575: 8575
+Attempting Operations on Empty Structure
+null
+false
+32
+2324
+112
+false
+false
+Peek First is: 3 Peek Last is: 32
+Adding First. 
+ Current Size is: 112
+true
+Peek First is: 1 Peek Last is: 32
+Current Size now is: 113
+
+Adding First. 
+ Current Size is: 113
+true
+Peek First is: 2 Peek Last is: 32
+Current Size now is: 114
+
+Adding Last. 
+ Current Size is: 114
+true
+Peek First is: 2 Peek Last is: 3
+Current Size now is: 115
+
+Adding Last. 
+ Current Size is: 115
+true
+Peek First is: 2 Peek Last is: 4
+Current Size now is: 116
+
+Adding Last. 
+ Current Size is: 116
+true
+Peek First is: 2 Peek Last is: 5
+Current Size now is: 117
+
+Adding First. 
+ Current Size is: 117
+true
+Peek First is: 6 Peek Last is: 5
+Current Size now is: 118
+
+Adding First. 
+ Current Size is: 118
+true
+Peek First is: 7 Peek Last is: 5
+Current Size now is: 119
+
+Adding Last. 
+ Current Size is: 119
+true
+Peek First is: 7 Peek Last is: 8
+Current Size now is: 120
+
+Adding Last. 
+ Current Size is: 120
+true
+Peek First is: 7 Peek Last is: 9
+Current Size now is: 121
+
+
+Testing Iteration: (Should print a bunch of nums)
+7
+6
+2
+1
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+Should print then 1337 5 times.
+7
+6
+2
+1
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+1337
+1337
+1337
+Trying to find 3...
+Found: 3
+Contains: true
+
+
+--------
+Testing Removal: Current Size is: 126
+7
+Now Size is: 125
+ (last) Testing Removal: Current Size is: 125
+1337
+Now Size is: 124
+ (last) Testing Removal: Current Size is: 124
+1337
+Now Size is: 123
+ (last) Testing Removal: Current Size is: 123
+1337
+Now Size is: 122
+Testing Removal: Current Size is: 122
+6
+Now Size is: 121
+Testing Removal: Current Size is: 121
+2
+Now Size is: 120
+Testing Removal: Current Size is: 120
+1
+Now Size is: 119
+
+ Testing Iteration: 
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+Peek First is: 3 Peek Last is: 1337
+Trying to find 3...
+Found: 3
+Contains: true
+Adding Last: true
+Adding Last: true
+Adding Last: true
+Adding First: true
+First is: 616
+Trying to remove the number 616: 616
+Trying to remove 8575: 8575
+Attempting Operations on Empty Structure
+null
+false
+3
+2324
+119
+false
+false
+Peek First is: 4 Peek Last is: 32
+Adding First. 
+ Current Size is: 119
+true
+Peek First is: 1 Peek Last is: 32
+Current Size now is: 120
+
+Adding First. 
+ Current Size is: 120
+true
+Peek First is: 2 Peek Last is: 32
+Current Size now is: 121
+
+Adding Last. 
+ Current Size is: 121
+true
+Peek First is: 2 Peek Last is: 3
+Current Size now is: 122
+
+Adding Last. 
+ Current Size is: 122
+true
+Peek First is: 2 Peek Last is: 4
+Current Size now is: 123
+
+Adding Last. 
+ Current Size is: 123
+true
+Peek First is: 2 Peek Last is: 5
+Current Size now is: 124
+
+Adding First. 
+ Current Size is: 124
+true
+Peek First is: 6 Peek Last is: 5
+Current Size now is: 125
+
+Adding First. 
+ Current Size is: 125
+true
+Peek First is: 7 Peek Last is: 5
+Current Size now is: 126
+
+Adding Last. 
+ Current Size is: 126
+true
+Peek First is: 7 Peek Last is: 8
+Current Size now is: 127
+
+Adding Last. 
+ Current Size is: 127
+true
+Peek First is: 7 Peek Last is: 9
+Current Size now is: 128
+
+
+Testing Iteration: (Should print a bunch of nums)
+7
+6
+2
+1
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+Should print then 1337 5 times.
+7
+6
+2
+1
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+1337
+1337
+1337
+Trying to find 3...
+Found: 3
+Contains: true
+
+
+--------
+Testing Removal: Current Size is: 133
+7
+Now Size is: 132
+ (last) Testing Removal: Current Size is: 132
+1337
+Now Size is: 131
+ (last) Testing Removal: Current Size is: 131
+1337
+Now Size is: 130
+ (last) Testing Removal: Current Size is: 130
+1337
+Now Size is: 129
+Testing Removal: Current Size is: 129
+6
+Now Size is: 128
+Testing Removal: Current Size is: 128
+2
+Now Size is: 127
+Testing Removal: Current Size is: 127
+1
+Now Size is: 126
+
+ Testing Iteration: 
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+Peek First is: 4 Peek Last is: 1337
+Trying to find 3...
+Found: 3
+Contains: true
+Adding Last: true
+Adding Last: true
+Adding Last: true
+Adding First: true
+First is: 616
+Trying to remove the number 616: 616
+Trying to remove 8575: 8575
+Attempting Operations on Empty Structure
+null
+false
+4
+2324
+126
+false
+false
+Peek First is: 5 Peek Last is: 32
+Adding First. 
+ Current Size is: 126
+true
+Peek First is: 1 Peek Last is: 32
+Current Size now is: 127
+
+Adding First. 
+ Current Size is: 127
+true
+Peek First is: 2 Peek Last is: 32
+Current Size now is: 128
+
+Adding Last. 
+ Current Size is: 128
+true
+Peek First is: 2 Peek Last is: 3
+Current Size now is: 129
+
+Adding Last. 
+ Current Size is: 129
+true
+Peek First is: 2 Peek Last is: 4
+Current Size now is: 130
+
+Adding Last. 
+ Current Size is: 130
+true
+Peek First is: 2 Peek Last is: 5
+Current Size now is: 131
+
+Adding First. 
+ Current Size is: 131
+true
+Peek First is: 6 Peek Last is: 5
+Current Size now is: 132
+
+Adding First. 
+ Current Size is: 132
+true
+Peek First is: 7 Peek Last is: 5
+Current Size now is: 133
+
+Adding Last. 
+ Current Size is: 133
+true
+Peek First is: 7 Peek Last is: 8
+Current Size now is: 134
+
+Adding Last. 
+ Current Size is: 134
+true
+Peek First is: 7 Peek Last is: 9
+Current Size now is: 135
+
+
+Testing Iteration: (Should print a bunch of nums)
+7
+6
+2
+1
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+Should print then 1337 5 times.
+7
+6
+2
+1
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+1337
+1337
+1337
+Trying to find 3...
+Found: 3
+Contains: true
+
+
+--------
+Testing Removal: Current Size is: 140
+7
+Now Size is: 139
+ (last) Testing Removal: Current Size is: 139
+1337
+Now Size is: 138
+ (last) Testing Removal: Current Size is: 138
+1337
+Now Size is: 137
+ (last) Testing Removal: Current Size is: 137
+1337
+Now Size is: 136
+Testing Removal: Current Size is: 136
+6
+Now Size is: 135
+Testing Removal: Current Size is: 135
+2
+Now Size is: 134
+Testing Removal: Current Size is: 134
+1
+Now Size is: 133
+
+ Testing Iteration: 
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+Peek First is: 5 Peek Last is: 1337
+Trying to find 3...
+Found: 3
+Contains: true
+Adding Last: true
+Adding Last: true
+Adding Last: true
+Adding First: true
+First is: 616
+Trying to remove the number 616: 616
+Trying to remove 8575: 8575
+Attempting Operations on Empty Structure
+null
+false
+5
+2324
+133
+false
+false
+Peek First is: 8 Peek Last is: 32
+Adding First. 
+ Current Size is: 133
+true
+Peek First is: 1 Peek Last is: 32
+Current Size now is: 134
+
+Adding First. 
+ Current Size is: 134
+true
+Peek First is: 2 Peek Last is: 32
+Current Size now is: 135
+
+Adding Last. 
+ Current Size is: 135
+true
+Peek First is: 2 Peek Last is: 3
+Current Size now is: 136
+
+Adding Last. 
+ Current Size is: 136
+true
+Peek First is: 2 Peek Last is: 4
+Current Size now is: 137
+
+Adding Last. 
+ Current Size is: 137
+true
+Peek First is: 2 Peek Last is: 5
+Current Size now is: 138
+
+Adding First. 
+ Current Size is: 138
+true
+Peek First is: 6 Peek Last is: 5
+Current Size now is: 139
+
+Adding First. 
+ Current Size is: 139
+true
+Peek First is: 7 Peek Last is: 5
+Current Size now is: 140
+
+Adding Last. 
+ Current Size is: 140
+true
+Peek First is: 7 Peek Last is: 8
+Current Size now is: 141
+
+Adding Last. 
+ Current Size is: 141
+true
+Peek First is: 7 Peek Last is: 9
+Current Size now is: 142
+
+
+Testing Iteration: (Should print a bunch of nums)
+7
+6
+2
+1
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+Should print then 1337 5 times.
+7
+6
+2
+1
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+1337
+1337
+1337
+Trying to find 3...
+Found: 3
+Contains: true
+
+
+--------
+Testing Removal: Current Size is: 147
+7
+Now Size is: 146
+ (last) Testing Removal: Current Size is: 146
+1337
+Now Size is: 145
+ (last) Testing Removal: Current Size is: 145
+1337
+Now Size is: 144
+ (last) Testing Removal: Current Size is: 144
+1337
+Now Size is: 143
+Testing Removal: Current Size is: 143
+6
+Now Size is: 142
+Testing Removal: Current Size is: 142
+2
+Now Size is: 141
+Testing Removal: Current Size is: 141
+1
+Now Size is: 140
+
+ Testing Iteration: 
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+32
+3
+4
+5
+8
+9
+1337
+1337
+Peek First is: 8 Peek Last is: 1337
+Trying to find 3...
+Found: 3
+Contains: true
+Adding Last: true
+Adding Last: true
+Adding Last: true
+Adding First: true
+First is: 616
+Trying to remove the number 616: 616
+Trying to remove 8575: 8575
