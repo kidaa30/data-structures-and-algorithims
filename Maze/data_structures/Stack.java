@@ -12,7 +12,7 @@ import java.util.NoSuchElementException;
 
 public class Stack<E> implements Iterable<E>{
 
-	private LinearList<E> list = new LinearList<E>();
+	private LinearListADT<E> list = new LinearList<E>();
 
       // inserts the object obj into the stack
     public void push(E obj){

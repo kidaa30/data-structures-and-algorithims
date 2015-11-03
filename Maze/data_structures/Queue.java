@@ -12,8 +12,7 @@ import java.util.NoSuchElementException;
 
 public class Queue<E> implements Iterable<E>{
 
-	// We don't even need a constructor.
-	private LinearList<E> list = new LinearList<E>();
+	private LinearListADT<E> list = new LinearList<E>();
 
 	// inserts the object obj into the queue
     public void enqueue(E obj){
