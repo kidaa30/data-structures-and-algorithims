@@ -2,8 +2,7 @@
     The GUI for the MazeSolver class
 	Alan Riggins
 	CS310 Fall 2015
-*/    
-package data_structures;
+*/
 
 import java.awt.*;
 import java.awt.event.*;

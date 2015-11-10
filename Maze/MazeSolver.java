@@ -1,8 +1,7 @@
 /* Michael Green
  * masc0338
- * Program 3 CS310
  */
-package data_structures;
+import data_structures.*;
 
 public class MazeSolver {
     private final int DIMENSION;
@@ -19,7 +18,7 @@ public class MazeSolver {
     public void mark() {
         queue.enqueue(maze.getCell(0, 0));
         queue.peek().setDistance(0);
-        /* As long as there's more squares we can keep going*/
+        /* As long as there's more squares we can keep going */
         while (!queue.isEmpty()) {
             /* Getting info about the point and marking it's distance */
             GridCell point = queue.dequeue();
@@ -73,4 +72,8 @@ public class MazeSolver {
             maze.getCell(x, y - 1), maze.getCell(x, y + 1)
         };
     };
+
+    public static void main(String[] args) {
+        MazeSolver maze = new MazeSolver(50);
+    }
 }

@@ -5,7 +5,7 @@
     CS310 Fall 2015
 */
 
-package data_structures;
+import data_structures.*;
 
 public class GridCell {
     private int xCoordinate, yCoordinate, distanceFromOrigin;
