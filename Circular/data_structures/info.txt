@@ -1,0 +1,5 @@
+We were given an ADT and told to create a circular array. An array that wraps around each end and keeps track of it's
+indicies.
+
+Files:
+LinearListADT.java

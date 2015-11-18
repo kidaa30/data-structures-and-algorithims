@@ -1,0 +1,8 @@
+We were given a GUI Maze, and we had to write a program to solve this using a breadth first
+solution in which we labeled all of the different squares in the maze. We had to utilize our stack and queue
+from our previous assignment in conjunction with the linked list we wrote previously. 
+
+Files Given:
+GridCell.java
+MazeGrid.java
+LinearListADT.java
